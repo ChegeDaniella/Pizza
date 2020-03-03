@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+</head>
+<body>
+    <a name="home"></a>
+    <div class="home">
+    <div class="navbarc">
+        <a href=#order>Order</a>
+        <a href="#about">About Us</a>
+        <a href=#home>Home</a>   
+    </div>  
+    <div id="name">
+     <p>THE LORD OF THE PIZZA</p>   
+      </div>
+    </div>
+    <a name="about"></a>
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <div class="heading"><h3>ABOUT US</h3></div>
+            <div class="about">
+                <p>Al Forno Restaurant opened on January 2, 1980. Chef-owners Johanne Killeen & George Germon bring simple renditions of food rooted in the various regions of Italy to their riverfront restaurant kitchen. Dishes are re-crafted to reflect the products of New England's farms and waters cooked in blazing hot ovens and on grills over hardwood charcoal fires.</p>
+            </div>  
+            </div>
+            <div class="col-md-6">
+            <div class="facts"><h3>FUN FACTS</h3></div> 
+            <div class="fun">   
+            <ol>
+                <li>You can order pizza from space</li>
+                <li>Saturday is the most popular night to order pizza</li>
+                <li>Common pizza toppings in Japan include squid and mayo</li>
+                <li>In 2013, Domino's made DVDs that smelled like pizza</li>
+                <li>Pizza Deliverers claim women are better tippers</li>
+                <li>Each person in America eats about 46 pizza slices a year.</li>
+            </ol> 
+                </div>
+            </div>
+        </div>
+    </div>    
+        <div class="slide">Click for a smile or a cringe.</div>
+        <div class="simim"><img src="images/harley.gif"></div>
+        </div><br>
+        <a name="order"></a><br><br>
+        <div class=head><h2>ORDER OUR ITEMS</h2></div>
+        <div class="container">
+        <div class="moving">
+            <img src="images/peperroni.jpeg">
+            <img src="images/pizza2.jpeg"> 
+            <img src="images/pizza3.jpeg">   
+        </div>
+        </div>
+        
+        <form id="form">
+            <h2>Create your Pizza</h2>
+            <label>Select size of pizza</label>
+            <select class="form-control" class="size" id="size">
+                <option selected>Select Size</option>
+                <option value="500" id="small">Small for 500/=</option>
+                <option value="800" id="medium">Medium for 800/=</option>
+                <option value="1000" id="large">Large for 1000/=</option>
+            </select><br>
+            <label>Select crust of pizza</label>
+            <select class="form-control" class="crust" id="crust">
+                <option selected>Select Crust</option>
+                <option value="300" name="Thin">Thin 300/=</option>
+                <option value="200" name="Thick">Crispy 200/=</option>
+                <option value="100" name="Stuffed">Stuffed 100/=</option>
+            </select><br>
+            
+                <label>Topping;</label>
+                <select class="form-control" id="topping"><br>
+                  <option value="120" name="onion">onion @ ksh 120</option>
+                  <option value="160" name="sausage">Sausage @ ksh 160 </option>
+                  <option value="190" name="Bacon">Bacon @ ksh 190 </option>
+                </select>
+                <button id="submit" onclick="orderPizza()">Submit</button><br>
+            <br>
+               <ul id = "list">
+
+               </ul>
+        </form> 
+        <div class="del">
+        <h4>Would you like you order to be delivered?If so please enter your<strong> Location </strong>when requested.</h4><br>
+                   
+           </div> 
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/script.js"></script>
+    
+</body>
+</html>
