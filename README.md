@@ -20,7 +20,7 @@ In the making of this web based application the languages used were HTML,CSS and
 # Contact information.
 Email:chegedaniella@gmail.com
 
-
+https://chegedaniella.github.io/Pizza/
 
 # License
 MIT License
