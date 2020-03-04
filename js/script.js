@@ -18,7 +18,7 @@ var pizzaTopping = ["Onion", "Sausage", "Bacon"];
 var p_size,p_crust,p_topping;
 
 var total=pSize+pCrust+pTopping;
-alert(total)
+alert("This is your initial total"+" "+total)
     
 if (pSize == 500){
     p_size=pizzaSize[0];
@@ -41,6 +41,8 @@ if(pTopping==120){
 }else if(pTopping==190){
     p_topping = pizzaTopping[2];
 }
+var more=parseInt(prompt("How many pizzas would you like"))
+total=total+more
         var delivery = confirm("Do you want your Pizza delivered to you?");
         if(delivery){
             total=total+150;
