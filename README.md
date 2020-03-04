@@ -16,6 +16,14 @@ This project is a web based application where the clients **The lord Of pizza** 
 - Messages the user back
 ## Technologies Used
 In the making of this web based application the languages used were HTML,CSS and javascript.Javascript and the jQuery library was in charge of the back-end development.
+## Installation requirements.
+- fork the project
+- Select account name
+- Extract zip file
+- Open file on local computer
+
+## Set up Requirements
+An active internet connection
 
 # Contact information.
 Email:chegedaniella@gmail.com
